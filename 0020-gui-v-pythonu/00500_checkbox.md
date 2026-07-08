@@ -2,7 +2,7 @@
 
 ## Co je Checkbox
 
-Checkbox (zaškrtávací políčko) umožňuje uživateli zvolit ano/ne (zapnuto/vypnuto).
+*Checkbox* (zaškrtávací políčko) umožňuje uživateli zvolit ano/ne (zapnuto/vypnuto).
 
 ## Vytvoření checkboxu
 
@@ -21,7 +21,7 @@ if studuje.get():
     print("Zaškrtnuto")
 ```
 
-> Bez `variable=` bys nezjistil/a, jestli je checkbox zaškrtnutý – widget by jen vypadal, ale nešlo by číst jeho stav.
+> Bez `variable=` bys nezjistil/a, jestli je checkbox zaškrtnutý – widget by sice vypadal správně a fungoval, ale nešlo by číst jeho stav.
 
 ## Časté chyby
 - Čtení `studuje` místo `studuje.get()` – vrátí objekt `BooleanVar`, ne `True`/`False`.
