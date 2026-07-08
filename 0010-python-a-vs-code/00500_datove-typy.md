@@ -7,8 +7,8 @@ Datový typ určuje, jaký druh hodnoty proměnná obsahuje – jestli je to tex
 Podle datového typu Python pozná, co s hodnotou smí dělat.
 
 ```python
-vek = 15 // číslo
-jmeno = "Karel" // text
+vek = 15         # číslo
+jmeno = "Karel"  # text
 ```
 
 Tady `vek` obsahuje celé číslo, `jmeno` obsahuje text. Typ hodnoty zjistíš funkcí `type()`:
@@ -18,7 +18,7 @@ print(type(vek))    # <class 'int'>
 print(type(jmeno))   # <class 'str'>
 ```
 
-## Proč je datový typ důležitý, i když ho neuvádíš
+## Proč je datový typ důležitý?
 
 V Pythonu při vytváření proměnné typ nikde nepíšeš – Python si ho sám odvodí z hodnoty, kterou proměnné přiřadíš. Přesto typ ovlivňuje, jak se proměnná chová:
 
@@ -41,6 +41,8 @@ Stejný operátor `+` se chová jinak podle toho, jaký typ hodnot spojuje. Prot
 | `float` | desetinné číslo | `15.5` |
 | `bool` | pravda/nepravda | `True`, `False` |
 
+> Pro desetinná čísla se používá desetinná tečka. Tedy `15.5`, ne ~~`15,5`~~.
+
 ## Převody mezi typy
 
 Hodnoty můžeš mezi typy převádět:
@@ -56,7 +58,8 @@ vek_zpet = str(vek_cislo)        # číslo -> text
 
 ## Časté chyby
 - Sčítání textu a čísla bez převodu: ~~`"Je mi " + 15`~~ způsobí chybu, správně je `"Je mi " + str(15)` nebo `f"Je mi {15}"`.
-- Očekávání, že `input()` vrátí číslo – vždy vrací text, i když uživatel napíše číslici.
+- Očekávání, že `input()` vrátí číslo – vždy vrací text, i když uživatel napíše číslo.
+- Použití desetinné čárky místo desetinné tečky při zadávání desetinných čísel: správně je `28.452` a ne ~~`28,452`~~.
 
 ## AI Copilot
 Zkus se AI zeptat:
