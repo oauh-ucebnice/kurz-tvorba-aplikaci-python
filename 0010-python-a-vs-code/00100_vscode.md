@@ -25,13 +25,15 @@ Ano, šlo.
 ## Jak vytvořit skript ve Visual Studiu?
 - otevři VS Code,
 - vyber volbu *New File...* (nový soubor),
+  ![Vytvoř nový soubor](img/img00100_new-file.png) 
 - zadej název svého prvního skriptu `hello.py`,
 - zvol složku, do které skript uložíš,
-- zapiš svůj první kód: `print('Hello world!')`
+- zapiš svůj první kód: 
+  ```python
+  print("Ahoj světe!")
+  ```
 - V levém okně (*Explorer*) zvol položku *add a folder* pro otevření složky se skriptem.
-
-![Vytvoř nový soubor](img/img00100_new-file.png) 
-![Přidej složku a spusť skript](img/img00200_add-folder_run.png) 
+  ![Přidej složku a spusť skript](img/img00200_add-folder_run.png) 
 
 ## Spuštění skriptu:
 - ve většině IDE je zelená šipka Spustit – ve VS Code je vpravo nahoře,
