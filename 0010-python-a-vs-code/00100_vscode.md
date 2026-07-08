@@ -2,7 +2,7 @@
 
 ## Co je vývojové prostředí
 
-Vývojové prostředí je program, ve kterém vývojáři píší kód. My budeme používat *Visual Studio Code*, ale existují mnohé další.
+Vývojové prostředí je program, ve kterém vývojáři píší kód. My budeme používat *Visual Studio Code* (VS Code), ale existují mnohé další.
 
 ### Proč používat vývojové prostředí?
 - barevně zvýrazní příkazy a důležité části kódu,
@@ -43,3 +43,19 @@ Ano, šlo.
 
 > Pokud máš Python správně nainstalovaný, můžeš také otevřít terminál ve složce se skriptem a napsat `python hello.py`.
 
+# AI asistent ve VS Code
+
+Ve Visual Studio Code můžeš používat AI asistenta, který ti pomáhá s psaním kódu, vysvětlením chyb nebo návrhem jednoduchých úprav.
+
+![Vyzkoušej AI asistenta](img/img00400_ai.png)
+
+> AI je užitečný pomocník, ale ne automatická náhrada za vlastní myšlení. Nejlepší je používat ho jako radu, ne jako hotové řešení bez pochopení.
+
+## Jak s AI pracovat?
+- Požádej asistenta, aby navrhl kód: „Napiš program, který vypíše moje jméno.“
+- Požádej AI, aby ti vysvětlila, jak kód funguje: „Buď můj učitel programování. Vysvětli mi, jak kód funguje a co bych se měl naučit.“
+- Výsledek vždy zkontroluj a pochop, co přesně dělá,
+- Pokud je něco nejasné, zeptej se znovu a požádej o kratší vysvětlení.
+
+> AI ti může hodně pomoct, ale produkt vytvořený za 15 minut má stále hodnotu jen těch 15 minut práce. (I když vypadá úžasně.)
+> Jestli má tvoje aplikace opravdu stát za to, musíš do něj vložit vlastní nápad, zkušenost a porozumění. Musíš se jí věnovat a vylepšovat ji. To bude její skutečná hodnota.
