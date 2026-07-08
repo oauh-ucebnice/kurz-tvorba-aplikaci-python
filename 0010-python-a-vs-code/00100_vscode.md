@@ -22,8 +22,6 @@ Ano, šlo.
 
 # Praxe: První skript v Pythonu
 
-<!-- TODO: Doplň obrázek -->
-
 ## Jak vytvořit skript ve Visual Studiu?
 - otevři VS Code,
 - vyber volbu *New File...* (nový soubor),
@@ -32,14 +30,14 @@ Ano, šlo.
 - zapiš svůj první kód: `print('Hello world!')`
 - V levém okně (*Explorer*) zvol položku *add a folder* pro otevření složky se skriptem.
 
-![alt text](img/img00100_new-file.png) 
-![alt text](img/img00200_add-folder_run.png) 
+![Vytvoř nový soubor](img/img00100_new-file.png) 
+![Přidej složku a spusť skript](img/img00200_add-folder_run.png) 
 
 ## Spuštění skriptu:
 - ve většině IDE je zelená šipka Spustit – ve VS Code je vpravo nahoře,
 - při první spuštění skriptu budeš možná muset zvolit interpreter (překladač).
 
-![alt text](img/img00300_output.png)
+![Výstup prvního programu](img/img00300_output.png)
 
 > Pokud máš Python správně nainstalovaný, můžeš také otevřít terminál ve složce se skriptem a napsat `python hello.py`.
 
