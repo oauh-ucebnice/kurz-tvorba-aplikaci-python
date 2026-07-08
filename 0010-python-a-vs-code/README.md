@@ -1,9 +1,9 @@
 # Úvod do Pythonu a Visual Studia Code
 
-## Cíl lekce
+## Cíl kapitoly
 Seznámit se se základní Python syntaxí a naučit se spouštět kód ve Visual Studio Code.
 
-## Klíčová témata
+## Lekce
 - [Práce ve vývojovém prostředí](00100_vscode.md)
 - [Komentáře](00200_komentare.md)
 - [Proměnné](00300_promenne.md)

@@ -1,9 +1,9 @@
 # Grafické uživatelské rozhraní
 
-## Cíl lekce
-Naučit se vytvořit jednoduché grafické rozhraní pomocí `tkinter`.
+## Cíl kapitoly
+Naučit se vytvořit grafické rozhraní aplikace (*GUI*) a pochopit principy GUI.
 
-## Klíčová témata
+## Lekce
 - [Vytvoření okna aplikace](00100_okno.md)
 - [Tlačítka a textová pole](00200_widgety.md)
 - [Obsluha událostí](00300_udalosti.md)
