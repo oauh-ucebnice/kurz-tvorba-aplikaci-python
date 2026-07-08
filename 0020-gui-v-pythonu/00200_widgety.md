@@ -1,8 +1,41 @@
 # Tlačítka a textová pole
 
-## Co je widget
+Prvek uvnitř okna se označují *widget*.
 
-Widget je prvek uvnitř okna – třeba popisek, textové pole nebo tlačítko. Aby se widget v okně zobrazil, musíš ho jednak vytvořit, jednak „umístit“ pomocí `pack()`.
+Nejběžnější prvky:
+- popisky (*label*)
+- tlačítka (*button*)
+- textová pole (*text field*/*entry*)
+- zatrhávací tlačítko (*checkbox*)
+- přepínací tlačítko (*radio button)
+
+Aby se widget v okně zobrazil, musíš ho jednak vytvořit, jednak „umístit“ pomocí `pack()`.
+
+## Ukázka kódu okna
+
+
+```python
+import tkinter as tk
+
+def hlavni_okno():
+    okno = tk.Tk()
+    okno.title("Moje aplikace")
+    okno.geometry("300x200")
+
+    label = tk.Label(okno, text="Zadej jméno:")
+    label.pack()
+
+    vstup = tk.Entry(okno)
+    vstup.pack()
+
+    button = tk.Button(okno, text="Potvrď")
+    button.pack()
+
+    okno.mainloop()
+
+if __name__ == "__main__":
+    hlavni_okno()
+```
 
 ## Label – popisek
 
@@ -38,10 +71,13 @@ Zatím tlačítko nic nedělá – to, co se stane po kliknutí, se nastavuje po
 ## Časté chyby
 - Zapomenuté `.pack()` – widget existuje, ale nezobrazí se v okně.
 - Záměna `.get()` a `text=` – `.get()` čte hodnotu z `Entry`, `text=` nastavuje popisek u `Label`/`Button`.
+- Špatný parametr
 
 ## AI Copilot
 Zkus se AI zeptat:
 - „Jak přidám do okna textové pole?“
 - „K čemu slouží `pack()`?“
+- „Přidej do okna další dvě textová pole s popisem Věk: a Ročník:“
+- „Jak by se dal vylepšit vzhled okna?“
 
 > I tady platí: kód od AI si vždy ověř – spusť aplikaci a vyzkoušej, že widgety fungují a jsou vidět tam, kde mají být.
