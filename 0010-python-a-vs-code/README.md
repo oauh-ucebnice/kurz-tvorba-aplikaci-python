@@ -6,7 +6,8 @@ Seznámit se se základní Python syntaxí a naučit se spouštět kód ve Visua
 ## Klíčová témata
 - [Práce ve vývojovém prostředí](00100_vscode.md)
 - [`print()`, `input()`](00200_print-input.md)
-- Proměnné a datové typy
+- [Proměnné](00300_promenne.md)
+- [Datové typy](00400_datove-typy.md)
 - AI asistent ve VS Code
 
 ## Úkoly
