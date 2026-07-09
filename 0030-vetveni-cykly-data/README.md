@@ -6,23 +6,14 @@ Procvičit rozhodování a opakování pomocí podmínek a smyček.
 Seznámit se s datovými strukturami *pole* (*array*) a *slovník* (*dictionary*).
 
 ## Lekce
-- Rozhodování: `if`, `elif`, `else`
-- Cyklus `for`
-- Další možnosti cyklů: `while`, `break`, `continue`
-- Pole (*array*)
-- Slovník (*dictionary*)
-- Třídy a objekty
+- [Rozhodování: `if`, `elif`, `else`](00100_if-elif-else.md)
+- [Cyklus `for`](00200_cyklus-for.md)
+- [Další možnosti cyklů: `while`, `break`, `continue`](00300_while-break-continue.md)
+- [Pole (*array*)](00400_pole.md)
+- [Slovník (*dictionary*)](00500_slovnik.md)
+- [Třídy a objekty](00600_tridy-objekty.md)
 
 ## Úkoly
-
-Napiš program, který:
-- získává čísla od uživatele v cyklu,
-- vypočítá součet,
-- ukončí zadávání při zadání nuly.
-
-Napiš program, který:
-- načte číslo od uživatele,
-- pokud je číslo záporné, nebo je větší než 100, vypíše chybu,
-- zobrazí na obrazovce součet všech celých čísel od 1 do zadaného čísla.
-
-Napiš program, který načte data o zákazníkovi (jméno, počet zakázek) do objektu. Následně vytvořený objekt přidá do seznamu zákazníků.
+1. [Sčítání v cyklu](prj00100_pocitani-cyklu.md)
+2. [Součet čísel od 1 do N](prj00200_soucet-do-n.md)
+3. [Seznam zákazníků](prj00300_seznam-zakazniku.md)
