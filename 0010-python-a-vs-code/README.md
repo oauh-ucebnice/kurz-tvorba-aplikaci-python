@@ -9,7 +9,8 @@ Seznámit se se základní Python syntaxí a naučit se spouštět kód ve Visua
 - [Proměnné](00300_promenne.md)
 - [`print()`, `input()`](00400_print-input.md)
 - [Datové typy](00500_datove-typy.md)
-- [Funkce](00600_funkce.md)
+- [Datum a čas](00600_datum-cas.md)
+- [Funkce](00700_funkce.md)
 
 ## Úkoly
 1. [Hello world!](prj00100_hello.md)
