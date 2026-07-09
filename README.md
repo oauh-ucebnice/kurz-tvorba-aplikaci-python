@@ -15,4 +15,4 @@ Učebnice ke kurzu pro budoucí programátory na [Obchodní akademii, Vyšší o
 7. [API a datové zdroje](0070-api-a-webove-datove-zdroje)
 8. [Souhrnný projekt](0800-souhrnny-projekt)
 
-Autor: [Martin Šimůnek](https://www.martinsimunek.cz), poslední aktualizace 2026-07-06.
+Autor: [Martin Šimůnek](https://www.martinsimunek.cz), poslední aktualizace 2026-07-09.
