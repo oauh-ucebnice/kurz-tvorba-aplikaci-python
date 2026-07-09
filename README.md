@@ -8,8 +8,8 @@ Učebnice ke kurzu pro budoucí programátory na [Obchodní akademii, Vyšší o
 
 1. [Úvod do Pythonu a Visual Studia Code](0010-python-a-vs-code)
 2. [Grafické uživatelské rozhraní](0020-gui-v-pythonu)
-3. [Textové soubory](0030-textove-soubory)
-4. [Větvení a cykly, datové struktury](0040-vetveni-cykly-data)
+3. [Větvení a cykly, datové struktury](0030-vetveni-cykly-data)
+4. [Textové soubory](0040-textove-soubory)
 5. [AI nástroje pro tvorbu aplikací](0050-ai-v-programovani)
 6. [Git a GitHub](0060-git-a-github)
 7. [API a datové zdroje](0070-api-a-webove-datove-zdroje)
