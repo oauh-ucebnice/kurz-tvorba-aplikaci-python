@@ -6,10 +6,9 @@ Procvičit rozhodování a opakování pomocí podmínek a smyček.
 Seznámit se s datovými strukturami *pole* (*array*) a *slovník* (*dictionary*).
 
 ## Lekce
-- `if`, `elif`, `else`
-- `for`
-- `while`
-- `break`, `continue`
+- Rozhodování: `if`, `elif`, `else`
+- Cyklus `for`
+- Další možnosti cyklů: `while`, `break`, `continue`
 - Pole (*array*)
 - Slovník (*dictionary*)
 - Třídy a objekty
@@ -21,6 +20,9 @@ Napiš program, který:
 - vypočítá součet,
 - ukončí zadávání při zadání nuly.
 
-Napiš program, který načte posloupnost čísel ze souboru a spočítá jejich průměr.
+Napiš program, který:
+- načte číslo od uživatele,
+- pokud je číslo záporné, nebo je větší než 100, vypíše chybu,
+- zobrazí na obrazovce součet všech celých čísel od 1 do zadaného čísla.
 
-Napiš program, který načte ze souboru údaje o zákaznících (objekt) a zobrazí je ve formuláři – vždy se zobrazí informace o jednom zákazníkovi a tlačítky Předchozí/Další lze listovat záznamy.
+Napiš program, který načte data o zákazníkovi (jméno, počet zakázek) do objektu. Následně vytvořený objekt přidá do seznamu zákazníků.
