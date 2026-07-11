@@ -2,7 +2,7 @@
 
 ## Halucinace
 
-AI si někdy vymyslí něco, co neexistuje – třeba knihovnu, funkci nebo parametr, který ve skutečnosti není součástí Pythonu. Tomuto jevu se říká *halucinace*. Kód pak vypadá důvěryhodně a je napsaný sebejistě, ale při spuštění skončí chybou, protože daná věc prostě neexistuje.
+AI si někdy vymyslí něco, co neexistuje – třeba knihovnu, funkci nebo parametr, který ve skutečnosti v daném jazyce není. Tomuto jevu se říká *halucinace*. Kód pak vypadá důvěryhodně a je napsaný sebejistě, ale při spuštění skončí chybou, protože daná věc prostě neexistuje.
 
 > Halucinaci nepoznáš podle tónu odpovědi – AI zní stejně sebejistě, ať má pravdu, nebo ne. Jediný spolehlivý způsob, jak si být jistý/á, je kód spustit a výsledek zkontrolovat.
 
