@@ -2,20 +2,28 @@
 
 ## Modul datetime
 
-Pro práci s datem a časem má Python vestavěný modul `datetime`. Než ho začneš používat, musíš ho naimportovat:
+Pro práci s datem a časem má Python vestavěný modul `datetime`. Než začneš používat datové typy, musíš je naimportovat:
 
 ```python
-from datetime import datetime
+from datetime import datetime 
+  # Údaj o datu a čase
+from datetime import date 
+  # Jen datum bez časového údaje
 ```
 
 ## Aktuální datum a čas
 
 ```python
 ted = datetime.now()
+dnes = date.today()
 print(ted)  # 2026-07-09 14:32:10.123456
+print(dnes) # 2026-07-09
 ```
 
-`datetime.now()` vrátí objekt, který v sobě má uložený rok, měsíc, den, hodinu, minutu i sekundu.
+`datetime.now()` vrátí objekt, který v sobě má uložený aktuální rok, měsíc, den, hodinu, minutu i sekundu.
+
+`date.today()` vrátí objekt, který v sobě má uložený aktuální rok, měsíc, den – ale ne čas.
+
 
 ## Přístup k jednotlivým částem
 
@@ -35,6 +43,18 @@ print(ted.strftime("%d.%m.%Y"))  # 09.07.2026
 print(ted.strftime("%H:%M:%S"))  # 14:32:10
 ```
 
+Pro český formát data se běžněji používá:
+```python
+print(ted.strftime("%#d. %#m. %Y"))  # pro Windows: 9. 7. 2026
+print(ted.strftime("%-d. %-m. %Y"))  # ostatní systemy: 9. 7. 2026
+```
+
+Nebo univerzálně a nezávisle na operačním systému:
+```python
+print(f"{ted.day}. {ted.month}. {ted.year}")  # 9. 7. 2026
+```
+
+
 | Značka | Význam | Příklad |
 |---|---|---|
 | `%d` | den | `09` |
@@ -51,8 +71,9 @@ print(ted.strftime("%H:%M:%S"))  # 14:32:10
 Pomocí `timedelta` můžeš k datu přičítat nebo od něj odečítat dny:
 
 ```python
-from datetime import timedelta
+from datetime import timedelta, datetime
 
+ted = datetime.now()
 zitra = ted + timedelta(days=1)
 print(zitra.strftime("%d.%m.%Y"))
 ```
