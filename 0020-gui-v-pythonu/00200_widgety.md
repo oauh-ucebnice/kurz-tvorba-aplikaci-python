@@ -20,14 +20,14 @@ okno = tk.Tk()
 okno.title("Moje aplikace")
 okno.geometry("300x200")
 
-label = tk.Label(okno, text="Zadej jméno:")
-label.pack()
+popisek = tk.Label(okno, text="Napiš své jméno:")
+popisek.pack()
 
 vstup = tk.Entry(okno)
 vstup.pack()
 
-button = tk.Button(okno, text="Potvrď")
-button.pack()
+tlacitko = tk.Button(okno, text="Pozdrav")
+tlacitko.pack()
 
 okno.mainloop()
 ```
@@ -55,13 +55,34 @@ text = vstup.get()
 ## Button – tlačítko
 
 ```python
-tlacitko = tk.Button(okno, text="Zobraz")
+tlacitko = tk.Button(okno, text="Pozdrav")
 tlacitko.pack()
 ```
 
 Zatím tlačítko nic nedělá – to, co se stane po kliknutí, se nastavuje pomocí `command` (viz kapitola [Obsluha událostí](00300_udalosti.md)).
 
 > Widget vždy vytváříš s parametrem `okno` jako první argument – Python tak ví, do kterého okna widget patří.
+
+## Výsledný kód
+
+```python
+import tkinter as tk
+
+okno = tk.Tk()
+okno.title("Moje aplikace")
+okno.geometry("300x200")
+
+popisek = tk.Label(okno, text="Napiš své jméno:")
+popisek.pack()
+
+vstup = tk.Entry(okno)
+vstup.pack()
+
+tlacitko = tk.Button(okno, text="Pozdrav")
+tlacitko.pack()
+
+okno.mainloop()
+```
 
 ## Časté chyby
 - Zapomenuté `.pack()` – widget existuje, ale nezobrazí se v okně.

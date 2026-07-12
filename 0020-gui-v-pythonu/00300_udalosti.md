@@ -16,7 +16,7 @@ def pozdrav():
 Pak ji propoj s tlačítkem pomocí parametru `command`:
 
 ```python
-tlacitko = tk.Button(okno, text="Zobraz", command=pozdrav)
+tlacitko = tk.Button(okno, text="Pozdrav", command=pozdrav)
 tlacitko.pack()
 ```
 
@@ -32,6 +32,31 @@ def zobraz():
     print(f"Napsal jsi: {text}")
 
 tlacitko = tk.Button(okno, text="Zobraz", command=zobraz)
+```
+
+## Výsledný kód
+
+```python
+import tkinter as tk
+
+def zobraz():
+    text = vstup.get()
+    print(f"Napsal jsi: {text}")
+
+okno = tk.Tk()
+okno.title("Moje aplikace")
+okno.geometry("300x200")
+
+popisek = tk.Label(okno, text="Napiš své jméno:")
+popisek.pack()
+
+vstup = tk.Entry(okno)
+vstup.pack()
+
+tlacitko = tk.Button(okno, text="Zobraz", command=zobraz)
+tlacitko.pack()
+
+okno.mainloop()
 ```
 
 ## Časté chyby
