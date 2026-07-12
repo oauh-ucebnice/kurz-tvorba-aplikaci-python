@@ -1,6 +1,6 @@
 # Tlačítka a textová pole
 
-Prvek uvnitř okna se označují *widget*.
+Prvek uvnitř okna se označuje jako *widget*.
 
 Nejběžnější prvky:
 - popisky (*label*)
@@ -13,28 +13,23 @@ Aby se widget v okně zobrazil, musíš ho jednak vytvořit, jednak „umístit�
 
 ## Ukázka kódu okna
 
-
 ```python
 import tkinter as tk
 
-def hlavni_okno():
-    okno = tk.Tk()
-    okno.title("Moje aplikace")
-    okno.geometry("300x200")
+okno = tk.Tk()
+okno.title("Moje aplikace")
+okno.geometry("300x200")
 
-    label = tk.Label(okno, text="Zadej jméno:")
-    label.pack()
+label = tk.Label(okno, text="Zadej jméno:")
+label.pack()
 
-    vstup = tk.Entry(okno)
-    vstup.pack()
+vstup = tk.Entry(okno)
+vstup.pack()
 
-    button = tk.Button(okno, text="Potvrď")
-    button.pack()
+button = tk.Button(okno, text="Potvrď")
+button.pack()
 
-    okno.mainloop()
-
-if __name__ == "__main__":
-    hlavni_okno()
+okno.mainloop()
 ```
 
 ## Label – popisek

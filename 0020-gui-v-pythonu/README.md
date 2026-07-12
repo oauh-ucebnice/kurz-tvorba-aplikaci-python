@@ -3,6 +3,8 @@
 ## Cíl kapitoly
 Naučit se vytvořit grafické rozhraní aplikace (*GUI*) a pochopit principy GUI.
 
+> Kód představený v této lekci je vhodný pouze pro malé aplikace s jedním oknem. Pro větší aplikace je vhodnější použít třídy a objekty!
+
 ## Lekce
 - [Vytvoření okna aplikace](00100_okno.md)
 - [Tlačítka a textová pole](00200_widgety.md)
