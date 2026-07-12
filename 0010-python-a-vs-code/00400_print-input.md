@@ -45,16 +45,17 @@ Příkaz `input()` počká, až uživatel něco napíše a stiskne Enter. Zadan�
 
 ```python
 jmeno = input("Jak se jmenuješ? ")
-print(f"Ahoj, {jmeno}!")
+print(f"Ahoj, jmenuješ se {jmeno}!")
 ```
 
-> `input()` vrací vždy text (posloupnost písmen a čísel), i když uživatel napíše číslo. Pokud chceš pracovat s čísly, musíš text převést na číslo:
+`input()` vrací vždy text (posloupnost písmen a číslic), i když uživatel napíše číslo. Pokud chceš pracovat s čísly, musíš zadaný text převést na číslo pomocí funkce `int`:
 
-    ```python
-    vek_text = input("Kolik je ti let? ")
-    vek = int(vek_text)
-    print(f"Za rok ti bude {vek + 1} let.")
-    ```
+```python
+vek_text = input("Kolik je ti let? ")
+vek = int(vek_text)
+print(f"Za rok ti bude {vek + 1} let.")
+```
+> Vyzkoušej, co by se stalo, kdybys druhý řádek s `int` vynechal.
 
 ## Časté chyby
 - Zapomenuté uvozovky při výpisu textu: ~~`print(Ahoj)`~~
