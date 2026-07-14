@@ -6,13 +6,19 @@
 
 Vytvoř skript `formular.py` s oknem, které obsahuje:
 - textové pole pro jméno,
-- zaškrtávací políčko (`Checkbutton`) „Studuji na OA Uherské Hradiště“,
-- přepínače (`Radiobutton`) pro výběr oblíbeného programovacího jazyka (např. Python / JavaScript / jiný),
+- zaškrtávací políčko (`Checkbutton`) „Vytvořil jsem první aplikaci s oknem“,
+- přepínače (`Radiobutton`) pro výběr 
+hodnocení:   
+    „Zatím to zvládám“: 
+    - „výborně“
+    - „docela dobře“
+    - „ještě mi to moc nejde“
+    - „potřebuji poradit“
 - tlačítko „Odešli“.
 
 ## Level 2: Zpracuj data
 
-Uprav skript tak, aby se po kliknutí na tlačítko „Odešli“ pod formulářem zobrazil popisek shrnující zadané údaje, například: *„Karel, studuje: ano, oblíbený jazyk: Python“*.
+Uprav skript tak, aby se po kliknutí na tlačítko „Odešli“ pod formulářem zobrazil popisek shrnující zadané údaje, například: *„Karel {má|nemá} hotové okno a zvládá to {výborně}“*.
 
 ## Level 3: Vylepši s AI
 
