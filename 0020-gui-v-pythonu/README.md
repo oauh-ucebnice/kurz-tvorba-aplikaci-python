@@ -9,9 +9,9 @@ Naučit se vytvořit grafické rozhraní aplikace (*GUI*) a pochopit principy GU
 - [Vytvoření okna aplikace](00100_okno.md)
 - [Tlačítka a textová pole](00200_widgety.md)
 - [Obsluha událostí](00300_udalosti.md)
-- [Zobrazení výsledku](00400_vystup.md)
-- [Checkbox](00500_checkbox.md)
-- [Radio-button](00600_radio-button.md)
+- [Checkbox](00400_checkbox.md)
+- [Radio-button](00500_radio-button.md)
+- [Pro zvídavé](00600_dalsi-gui.md)
 
 ## Úkoly
 1. [Hello GUI!](prj00100_hellogui.md)
