@@ -9,7 +9,7 @@ Naučit se základní práci s Gitem a publikaci na GitHubu.
 - `git remote add`, `git push`
 - základy GitHub repozitáře
 
-## Projektový úkol
+## Úkoly
 Vytvoř repozitář s:
 - lekčními soubory,
 - prvním commit zprávou,
