@@ -19,9 +19,10 @@ with open("vstup.txt") as soubor:
 - vše, co se souborem chceš dělat, patří do odsazeného bloku pod `with`,
 - jakmile blok skončí, soubor se automaticky zavře.
 
-> Proměnná `soubor` je dostupná jen uvnitř bloku `with`. Mimo něj s ní už nemůžeš pracovat, protože soubor je zavřený.
+### Dej si pozor:
 
-> Pokud soubor `vstup.txt` neexistuje a otevíráš ho jen ke čtení, Python nahlásí chybu `FileNotFoundError`.
+- Proměnná `soubor` je dostupná jen uvnitř bloku `with`. Mimo něj s ní už nemůžeš pracovat, protože soubor je zavřený.
+- Pokud soubor `vstup.txt` neexistuje a otevíráš ho jen ke čtení, Python nahlásí chybu `FileNotFoundError`.
 
 ## Cesty k souborům
 
@@ -33,7 +34,7 @@ with open("data/vstup.txt") as soubor:
     print(obsah)
 ```
 
-Ještě lepší je použít knihovnu `os` a použít standardní oddělovač pro aktuální platformu:
+Ještě lepší je použít knihovnu `os`. Ta má proměnnou `os.sep`, která zastupuje standardní oddělovač složek v cestě pro aktuální platformu (macOS, Windows, Linux, ...):
 
 ```python
 import os
@@ -43,7 +44,12 @@ with open(os.sep.join(["data", "vstup.txt"])) as soubor:
     print(obsah)
 ```
 
-> Nezapomeň na hranaté závorky uvnitř kulatých závorek – parametr funkce `join`!
+
+### Dej si pozor:
+
+- Uveď správný název souboru a nezapomeň na příponu. `"vstup"` je něco jiného než `"vstup.txt"` a něco jiného než `"vstup.txt.txt"`.
+- Pokud je skript umístěný v podadresáři projektu (ve vnořené složce), budeš možná muset uvést i název vnořené složky: `"slozka/data/vstup.txt"`.
+- Nezapomeň na hranaté závorky uvnitř kulatých závorek – parametrem funkce `join` je seznam názvů!
 
 
 ## Kódování souborů
@@ -73,11 +79,6 @@ soubor.close()
 ```
 
 Tenhle zápis ale funguje spolehlivě, jen když si na `close()` vždy vzpomeneš – a pokud mezi `open()` a `close()` nastane chyba, `close()` se nemusí spustit vůbec a soubor zůstane otevřený. `with` tohle riziko odstraňuje, proto se v praxi používá skoro vždy a i my ho budeme používat od začátku.
-
-## Časté chyby
-- Práce se souborem mimo odsazený blok `with` – soubor už je zavřený.
-- Otevření souboru, který neexistuje, v režimu pro čtení – `FileNotFoundError`.
-- Špatná cesta k souboru – pokud soubor není ve stejné složce jako skript, musíš uvést i cestu k němu.
 
 ## AI Copilot
 Zkus se AI zeptat:
