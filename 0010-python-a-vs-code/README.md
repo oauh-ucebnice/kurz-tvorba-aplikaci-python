@@ -5,6 +5,7 @@ Seznámit se se základní Python syntaxí a naučit se spouštět kód ve Visua
 
 ## Lekce
 - [Práce ve vývojovém prostředí](00100_vscode.md)
+- [Zápis kódu v Pythonu](00150_python.md)
 - [Komentáře](00200_komentare.md)
 - [Proměnné](00300_promenne.md)
 - [`print()`, `input()`](00400_print-input.md)
